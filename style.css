@@ -6,21 +6,33 @@ body{
 
 .hedder ul{
     display: inline-block;
-    padding-left: 30%;
     position: absolute;
     margin-top: 80px;
-    padding-right: 30%;
+    margin-left: 280px;
 }
 
 .hedder ul li{
     display: inline-block;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     
 }
 
+.hedder li:hover{
+    transform: scale(1.1);
+}
+
 .hedder a{
     text-decoration: none;
+    color: black;
+}
+
+.hedder a:hover{
+    color: blue;
+}
+
+.hedder{
+    background-image: linear-gradient(blue, black);
 }
 
 .Sobre-Mim{
