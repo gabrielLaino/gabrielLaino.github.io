@@ -1,55 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Laino</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <div class="hedder">
-        <img src="./minha-foto.jpg" alt="foto do gabriel" width="200px">
-        <ul>
-            <li><a href="#Sobre">Sobre Mim</a></li>
-            <li> / </li>
-            <li><a href="#habilidades">Minhas Habilidades</a></li>
-            <li> / </li>
-            <li><a href="#projeto">Meu Portifolio</a></li>
-            <li> / </li>
-            <li><a href="#redes">Redes Sociais</a></li>
+    <nav id="nav">
+        <img src="minha-foto.jpg" alt="Foto do Gabriel" id="minha-foto">
+        <ul id="links">
+            <li><a href="">Sobre Mim</a></li>
+            <li><a href="">Habilidades</a></li>
+            <li><a href="">Portifolio</a></li>
         </ul>
-   </div>
-   <div class="Sobre-Mim" id="Sobre">
-        <h1>Gabriel Laino</h1>
-        <p>Sobre mim: Olá meu nome e Gabriel, sou brasileiro e tenho 25 anos de idade, moro em São Paulo capital, amo tecnologia e desenvolvimento, além de ser apaixonado por videogames!!!</p>
-   </div>
-   <div class="habilidades" id="habilidades">
-        <h1>Minhas Habilidades</h1>
-        <h3>Softs Skills</h3>
-        <ul>
-            <li>Comunicação</li>
-            <li>Facilidade com novos aprendizados</li>
-            <li>Trabalho em equipe</li>
-            <li>Organização</li>  
+        <ul id="redes">
+            <li><a href=""></a><i class="bi bi-linkedin" id="linkedin"></i></li>
+            <li><a href=""></a><i class="bi bi-github" id="github"></i></li>
         </ul>
-        <h3>Hard Skills</h3>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>JavaScript *louding</li>
-        </ul>
-   </div>
-   <div  class="projetos" id="projetos">
-        <h1>Meus Projetos</h1>
-        <p>Aqui em baixo tem o link para todos os meus projetos web já realizados</p>
-        <ul>
-            <li>Ficarão aqui quando tiver</li>
-        </ul>
-   </div>
-</body>
-<footer id="redes">
-    <h2>Links para minhas redes</h2>
-    <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer"><img src="./github.png" alt="" width="50px"></a>
-    <a href="https://www.linkedin.com/in/gabriel-laino-bb6a81199" target="_blank" rel="noopener noreferrer"><img src="./linkedin.png" alt="" width="50px"></a>
-</footer>
+    </nav>
+    <header id="cabecalho">
+        <h2>Gabriel Laino</h2>
+        <p>esse e meu Portifolio espero que melhore cada vez mais</p>
+    </header>
+    <main id="principal">
+        <section id="sobre-mim">
+            <h3 class="titulo">Sobre mim</h3>
+            <article>
+                <p>Olá, meu nome e Gabriel, estou na minha jornada de se tornar um programador Full-Stack, e para essa
+                    jornada estou estudando em uma das maiores escolas de programação do Brasil a Trybe.<br>Eu estou
+                    amando aprender programação, e isso que vou fazer como profissão, logo abaixo tem um pouco mais
+                    sobre as minhas habilidades, tando de hardskills, quando as mais inportantes softskills. <br>Além
+                    das minhas habilidades, tem meus projetos, pelo menos os que tem disponiveis na web, para ver todos
+                    eles não se esqueça de olhar o meu github, link no menu de navegação. <br> Não menos importante,
+                    gosto munto de Herry Potter, jogar um videogame, e B99!!! </p>
+            </article>
+        </section>
+        <section id="habilidades">
+            <h3 class="habilidades">Habilidades</h3>
+            <p>click nas habilidades para saber um pouco mais sobre elas</p>
+            <div id="hardskills">
+                <h4>hardskills</h4>
+                <ul>
+                    <li id="html">HTML</li>
+                    <li id="css">CSS</li>
+                    <li id="js">JavaScript</li>
+                </ul>
+            </div>
+            <div id="softskills">
+                <h4>SoftSkills</h4>
+                <ul>
+                    <li id="comunicacao">Comunicação</li>
+                    <li id="equipe">Trabalho em Equipe</li>
+                </ul>
+            </div>
+            
+        </section>
+    </main>
+    <script src="script.js"></script>
 </html>
