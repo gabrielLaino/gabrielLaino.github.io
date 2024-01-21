@@ -1,55 +1,86 @@
-body{
-    background-color: #5E6472;
-    margin: 1px;
-    padding: 0px;
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    width: 100%;
+    background-color: darkslategrey;
+    box-shadow: 1px 1px 10px black;
 }
 
-.hedder ul{
-    display: inline-block;
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 280px;
-}
-
-.hedder ul li{
-    display: inline-block;
-    font-size: 30px;
-    font-weight: bold;
+#links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
     
 }
 
-.hedder li:hover{
-    transform: scale(1.1);
-}
-
-.hedder a{
+#links a{
     text-decoration: none;
     color: black;
+    padding: 20px;
+    font-size: large;
 }
 
-.hedder a:hover{
+#links :hover{
     color: blue;
+    font-size: x-large;
 }
 
-.hedder{
-    background-image: linear-gradient(blue, black);
+#minha-foto {
+    width: 10%;
 }
 
-.Sobre-Mim{
-    margin-bottom: 5%;
+#redes {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
 }
 
-.Sobre-Mim p{
-    font-size: 18px;
+#redes i{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 40px;
 }
 
-.habilidades{
-    margin-bottom: 5%;
-}
-.habilidades ul li{
-    font-size: 20px;
+#redes :hover{
+    color: blue;
+    font-size: 45px;
 }
 
-.projetos{
-    margin-bottom: 5%;
+#cabecalho{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    align-items: baseline;
+    background-color: rgb(239, 239, 239);
+}
+
+main {
+    padding: 25px;
+    background-color: rgb(239, 239, 239);
+    text-align: center;
+}
+
+article p{
+    font-family: monospace;
+}
+
+#habilidades {
+    margin-top: 50px;
+}
+
+h4 {
+    padding: 25px 0;
+}
+
+#hardskills li{
+    list-style: none;
+}
+
+#hardskills ul :hover {
+    color: blue;
+    font-size: larger;
 }
