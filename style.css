@@ -84,3 +84,12 @@ h4 {
     color: blue;
     font-size: larger;
 }
+
+#softskills li{
+    list-style: none;
+}
+
+#softskills ul :hover {
+    color: pink;
+    font-size: larger;
+}
