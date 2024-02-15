@@ -8,11 +8,11 @@ const criaPCss = document.createElement('p');
 const criaPJs = document.createElement('p');
 const criapComu = document.createElement('p');
 const criapTra = document.createElement('p');
-const textoHtml = 'Na minha jornada HTML, estou evoluindo de mais e muito rapido, já consigo fazer um site semantico, responsivo tanto para desktop quanto para mobile, e claro vou continuar evoluindo muito!';
-const textoCss = 'A CSS, com certeza a minha maior fraqueza, e onde dedico muito estudo, e melhorei muito desde que começei, aprendendo a utilizar o bootstrap (que ajudou de mais a minha vida), alem de aprender a deixar o site responsivo com o @midia, e sem falar no display flex, que salvou a minha vida para posicionar elementos na tela!';
-const textoJs = 'O JavaScript e o que mais amo aprender, e estou me destacando de mais nele, sei adicionar eventos, testar possiveis erros, usar o DOM (utilizado para fazer essas funções), além de muitas outras coisas!';
-const textoComu = 'Na Trybe, aprendemos muito sobre SoftSkills, e são muito importantes para o mercado de trabalho, e a comunicação e a minha favorita, estamos aprendendo cade vez mais por exemplo, a comunicação não agressiva.';
-const textoTrabalho = 'O trabalho em equipe e umas das pricipais skills que precisa para o mercado de trabalho, afinal como vai realizar qualquer tarefa sem isso. E posso dizer que, e uma skill que tenho muito bem comigo, e estou melhorando cada vez mais.';
+const textoHtml = 'Minha evolução na jornada HTML está sendo rápida, já que consigo criar sites semânticos e responsivos para desktop e mobile. E ainda tenho muito para aprender e evoluir!';
+const textoCss = 'Minha Dedicação ao CSS Sem dúvida, meu estudo mais intenso tem sido em CSS, e desde que comecei, tenho melhorado a cada dia. Aprendi a utilizar o Bootstrap (que foi uma grande ajuda), a tornar meu site responsivo com @media, e ainda mais importante, a utilizar o display flex para posicionar elementos na tela.';
+const textoJs = 'Paixão por Aprender JavaScript! O meu amor por aprender a programar em JavaScript só cresce, e estou me destacando cada vez mais nesta linguagem. Atualmente, tenho habilidades em adicionar eventos, testar possíveis erros, usar o DOM, além de muitas outras coisas que a tornam uma das minhas áreas de maior destaque.';
+const textoComu = 'A habilidade de se comunicar de forma não-agressiva é essencial para uma interação efetiva com os outros, tanto no ambiente profissional quanto pessoal. Na Trybe, reconhecemos a importância de expressar nossas opiniões e sentimentos de maneira respeitosa e empática, sem atacar ou desrespeitar a outra pessoa. Essa abordagem não apenas melhora a qualidade das nossas relações, mas também ajuda a evitar conflitos desnecessários. Além disso, na Trybe, aprendemos a nos comunicar de forma clara e objetiva, evitando ambiguidades e mal-entendidos, o que é fundamental para o sucesso em qualquer carreira.';
+const textoTrabalho = 'A habilidade de trabalhar em equipe é uma das principais competências necessárias no mercado de trabalho. Afinal, como realizar qualquer tarefa sem ela? Felizmente, essa é uma habilidade que possuo e estou sempre buscando aprimorar.';
 
 html.addEventListener('click', () => {
   criaP.innerHTML = textoHtml;
